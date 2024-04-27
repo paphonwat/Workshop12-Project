@@ -71,7 +71,7 @@ export default function data() {
 
   return {
     columns: [
-      { Header: "companies", accessor: "companies", width: "45%", align: "left" },
+      { Header: "Name", accessor: "companies", width: "45%", align: "left" },
       { Header: "members", accessor: "members", width: "10%", align: "left" },
       { Header: "budget", accessor: "budget", align: "center" },
       { Header: "completion", accessor: "completion", align: "center" },
@@ -79,7 +79,7 @@ export default function data() {
 
     rows: [
       {
-        companies: <Company image={logoXD} name="Material UI XD Version" />,
+        companies: <Company image={logoXD} name="66230092 Teerawut kabkaew" />,
         members: (
           <MDBox display="flex" py={1}>
             {avatars([
@@ -102,7 +102,7 @@ export default function data() {
         ),
       },
       {
-        companies: <Company image={logoAtlassian} name="Add Progress Track" />,
+        companies: <Company image={logoAtlassian} name="66130790 Paphonwat Wattanathatniroj" />,
         members: (
           <MDBox display="flex" py={1}>
             {avatars([
@@ -123,7 +123,7 @@ export default function data() {
         ),
       },
       {
-        companies: <Company image={logoSlack} name="Fix Platform Errors" />,
+        companies: <Company image={logoSlack} name="66130773 WARONGKON FUKTHONGYOO" />,
         members: (
           <MDBox display="flex" py={1}>
             {avatars([
@@ -144,7 +144,7 @@ export default function data() {
         ),
       },
       {
-        companies: <Company image={logoSpotify} name="Launch our Mobile App" />,
+        companies: <Company image={logoSpotify} name="66130076 Chutikan Namwichit" />,
         members: (
           <MDBox display="flex" py={1}>
             {avatars([
@@ -166,45 +166,27 @@ export default function data() {
           </MDBox>
         ),
       },
-      {
-        companies: <Company image={logoJira} name="Add the New Pricing Page" />,
-        members: (
-          <MDBox display="flex" py={1}>
-            {avatars([[team4, "Jessica Doe"]])}
-          </MDBox>
-        ),
-        budget: (
-          <MDTypography variant="caption" color="text" fontWeight="medium">
-            $500
-          </MDTypography>
-        ),
-        completion: (
-          <MDBox width="8rem" textAlign="left">
-            <MDProgress value={25} color="info" variant="gradient" label={false} />
-          </MDBox>
-        ),
-      },
-      {
-        companies: <Company image={logoInvesion} name="Redesign New Online Shop" />,
-        members: (
-          <MDBox display="flex" py={1}>
-            {avatars([
-              [team1, "Ryan Tompson"],
-              [team4, "Jessica Doe"],
-            ])}
-          </MDBox>
-        ),
-        budget: (
-          <MDTypography variant="caption" color="text" fontWeight="medium">
-            $2,000
-          </MDTypography>
-        ),
-        completion: (
-          <MDBox width="8rem" textAlign="left">
-            <MDProgress value={40} color="info" variant="gradient" label={false} />
-          </MDBox>
-        ),
-      },
+      // {
+      //   companies: <Company image={logoInvesion} name="Redesign New Online Shop" />,
+      //   members: (
+      //     <MDBox display="flex" py={1}>
+      //       {avatars([
+      //         [team1, "Ryan Tompson"],
+      //         [team4, "Jessica Doe"],
+      //       ])}
+      //     </MDBox>
+      //   ),
+      //   budget: (
+      //     <MDTypography variant="caption" color="text" fontWeight="medium">
+      //       $2,000
+      //     </MDTypography>
+      //   ),
+      //   completion: (
+      //     <MDBox width="8rem" textAlign="left">
+      //       <MDProgress value={40} color="info" variant="gradient" label={false} />
+      //     </MDBox>
+      //   ),
+      // },
     ],
   };
 }
